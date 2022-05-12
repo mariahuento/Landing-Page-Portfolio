@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Varela Round', sans-serif;
-    background-color: #F2E9E4;
+    background-color: #ffffff;
 }
 
 .logo {
@@ -17,12 +17,12 @@ body {
 }
 
 .header {
-    background-color: #ffffff;
+    background-color: #F2E9E4;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 40px;
+    padding: 0px 30px;
 }
 
 .nav-list {
@@ -32,13 +32,15 @@ body {
 }
 
 .nav-link {
-    color: #C9ADA7;
+    color: #9A8C98;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 .nav-link:hover {
-    color:#4A4E69 ;
-    background-color: #9A8C98;
+    color:#ffffff ;
+    background-color: #4A4E69;
     padding: 10px;
-    border-radius: 20px;
-    transition: all .5s;
+    border-radius: 30px;
+    transition: all .3s;
 }
