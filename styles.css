@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,200&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,7 +7,7 @@
 }
 
 body {
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
 }
 
@@ -17,7 +16,7 @@ body {
 }
 
 .header {
-    background-color: #F2E9E4;
+    background-color:#FBF8CC;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -32,14 +31,93 @@ body {
 }
 
 .nav-link {
-    color: #9A8C98;
+    color: #CFBAF0;
     padding: 10px;
     border-radius: 30px;
 }
 
 .nav-link:hover {
     color:#ffffff ;
-    background-color: #4A4E69;
+    background-color: #CFBAF0;
+    padding: 10px;
+    border-radius: 30px;
+    transition: all .3s;
+}
+
+/*-----------nueva seccion-------------*/ 
+
+.section-1 {
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 50px; 
+}
+
+.article-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    max-width: 50%;
+}
+
+
+
+.article-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-hero {
+    height: auto;  
+}
+
+.section-2 {
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;  
+}
+
+.section-2 p {
+    background-color: #f1c0e842;
+    font-weight: 400;
+    font-size: 20px; 
+}
+
+.titulo {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.parrafo {
+    font-size: 400;
+    font-size: 20px;
+}
+
+.botones {
+   
+   display: flex;
+   gap: 40px;  
+}
+
+.btn {
+    color: #ffffff;
+    background-color:#F1C0E8;
+    padding: 10px;
+    border-radius: 30px;  
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #CFBAF0;
     padding: 10px;
     border-radius: 30px;
     transition: all .3s;
