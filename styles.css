@@ -21,7 +21,11 @@
     display: none;
 }
 
-.hero-img-mobile {
+.hero-img-mobile  {
+    display: none;
+}
+
+.hero-img-mobile2 {
     display: none;
 }
 /*-----------*/
@@ -127,7 +131,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px; 
+    padding: 20px; 
 }
 
 .hero-2 p {
