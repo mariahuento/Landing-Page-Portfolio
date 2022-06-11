@@ -31,6 +31,7 @@
     display: none;
 }
 
+
 /*------------------------header---------------------*/
 
 header {
@@ -179,6 +180,25 @@ margin-bottom: 20px;
     text-align: center;
     margin-bottom: 40px;
 }
+
+/*-------------------section 4-----------------------------*/
+.section-4 {
+    padding: 50px;
+}
+
+.section-4 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-4 p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.proyecto-card {
+    width: 100%;
+}
+
+
 
 /* ------------------------------responsive tablet----------------------------------- */
 
